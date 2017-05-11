@@ -14,19 +14,21 @@ c.trade_log = true // log new trades as they come in.
 // watch these exchanges
 c.watch_exchanges = [
   //"bitfinex",
-  "gdax",
+  //"gdax",
   //"kraken",
-  //"poloniex"
+  "poloniex"
 ]
 
 // selector for indicators, trading, etc
-c.default_selector = "gdax.BTC-USD"
+c.default_selector = "poloniex.BTC-USDT"
 
 // add selectors in the format "{exchange-slug}.{asset}-{currency}" to graph them
 c.graph_selectors = [
   c.default_selector,
-  "gdax.ETH-BTC",
-  "gdax.ETH-USD"
+  "poloniex.STR-USDT",
+  "poloniex.LTC-USDT",
+  "poloniex.XRP-USDT",
+  "poloniex.ETH-USDT"
 ]
 
 // trade logic

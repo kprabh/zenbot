@@ -10,4 +10,4 @@ c.currencies = [
 ]
 
 // default selector for indicators, etc
-c.default_selector = "gdax.BTC-USD"
+c.default_selector = "poloniex.BTC-USDT"

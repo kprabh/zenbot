@@ -1,11 +1,11 @@
 var c = module.exports = require('./config')
 
 c.assets = [
-  "ETH"
+  "XRP"
 ]
 c.currencies = [
-  "USD"
+  "USDT"
 ]
 
 // selector for indicators, trading, etc
-c.default_selector = "gdax.ETH-USD"
+c.default_selector = "poloniex.XRP-USDT"

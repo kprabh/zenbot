@@ -25,14 +25,14 @@ module.exports = function (c) {
     "num_trades",
     "ansi_graph",
     "rsi",
-    //"volume",
+    "volume",
     "price",
     "eta",
-    //"sma",
+    "sma",
     "balance",
     "roi"
   ]
-  c.trade_log = false
+  c.trade_log = true
   c.reducer_report_interval = 30000
   c.trade_reducer_log = false
   c.trade_reducer_log_interval = 30000
